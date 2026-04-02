@@ -21,4 +21,3 @@ jobs: #工作流中的任务，每个任务都有一个或多个步骤
         uses: JamesIves/github-pages-deploy-action@v4 #使用第三方提供的actions-gh-pages action来部署到GitHub Pages
         with:
           folder: .vitepress/dist #指定要发布的目录，这里是构建后的dist目录
-          branch: gh-pages #指定要部署到的分支，这里是main分支
