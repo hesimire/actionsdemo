@@ -10,9 +10,9 @@ jobs: #工作流中的任务，每个任务都有一个或多个步骤
 
       - name: Install add build dependencies #步骤名称
         run: |
-          npm install -g pnpm #运行命令安装项目依赖
-          pnpm install #运行命令安装项目依赖
-          pnpm run docs:build #运行命令构建文档
+          npm install -g pnpm 
+          pnpm install 
+          pnpm run docs:build
 
       - name: Build project #步骤名称
         run: npm run build #运行命令构建项目
