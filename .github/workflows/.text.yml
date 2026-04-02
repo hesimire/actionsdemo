@@ -12,7 +12,7 @@ jobs: #工作流中的任务，每个任务都有一个或多个步骤
         run: |
           npm install -g pnpm 
           pnpm install 
-          pnpm run docs:build
+          pnpm docs:build
 
       - name: Build project #步骤名称
         run: npm run build #运行命令构建项目
