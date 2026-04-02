@@ -1,0 +1,8 @@
+name: GitHub Actions Demo #工作流名称，用于在GitHub Actions中显示
+on: [push] #触发条件，这里是当有代码被推送到仓库时触发
+
+jobs: #工作流中的任务，每个任务都有一个或多个步骤
+  build: #任务名称
+    runs-on: ubuntu-latest #运行环境，这里使用最新的Ubuntu系统
+    steps: #任务中的步骤，每个步骤都是一个独立的操作
+      - run: echo "Hello, world!" #在终端中运行命令，这里是输出"Hello, world!"
