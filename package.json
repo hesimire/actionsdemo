@@ -14,8 +14,6 @@
   "license": "ISC",
   "packageManager": "pnpm@10.33.0",
   "devDependencies": {
-    "rollup": "^4.60.1",
-    "vitepress": "^1.6.4",
-    "vue": "^3.5.31"
+    "vitepress": "^1.6.4"
   }
 }
