@@ -14,9 +14,6 @@ jobs: #工作流中的任务，每个任务都有一个或多个步骤
           pnpm install 
           pnpm docs:build
 
-      - name: Build project #步骤名称
-        run: npm run build #运行命令构建项目
-
       - name: Deploy to GitHub Pages #步骤名称
         uses: JamesIves/github-pages-deploy-action@v4 #使用第三方提供的actions-gh-pages action来部署到GitHub Pages
         with:
